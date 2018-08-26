@@ -12,7 +12,6 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import id.stimik.garut.activities.LevelActivity;
 import id.stimik.garut.activities.TesActivity;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 

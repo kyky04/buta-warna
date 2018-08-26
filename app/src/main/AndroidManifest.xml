@@ -17,9 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".activities.LoginActivity"></activity>
-        <activity android:name=".activities.SoalActivity"></activity>
-        <activity android:name=".activities.LevelActivity"></activity>
         <activity android:name=".activities.TesActivity"></activity>
         <activity android:name=".activities.HasilActivity"></activity>
     </application>

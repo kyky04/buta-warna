@@ -7,7 +7,6 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
 
-import id.stimik.garut.activities.LoginActivity;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class SplashActivity extends AppCompatActivity {
