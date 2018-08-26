@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large">
+
+
+    <ImageView
+        android:id="@+id/img_tes"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/spacing_xxlarge"
+        android:src="@drawable/happy" />
+
+    <LinearLayout
+        android:id="@+id/lay_jawaban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_tes"
+        android:layout_marginTop="@dimen/spacing_large"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_medium">
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_hasil"
+            fontPath="fonts/ubuntu_regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALAH"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_hasil_hitung"
+            fontPath="fonts/ubuntu_regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anda salah 3 dari 10 pertanyaan"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tes_lagi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="TES LAGI"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:background="@color/red_800"
+            android:text="HOME"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
