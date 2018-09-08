@@ -12,6 +12,8 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import id.stimik.garut.activities.PembuatActivity;
+import id.stimik.garut.activities.TentangActivity;
 import id.stimik.garut.activities.TesActivity;
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
@@ -23,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     @BindView(R.id.btn_play)
     LinearLayout btnPlay;
-    @BindView(R.id.btn_learn)
+    @BindView(R.id.btn_tentang)
     LinearLayout btnLearn;
-    @BindView(R.id.btn_skor)
+    @BindView(R.id.btn_panduan)
     LinearLayout btnSkor;
     @BindView(R.id.btn_about)
     LinearLayout btnAbout;
@@ -66,17 +68,20 @@ public class MainActivity extends AppCompatActivity {
         super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
     }
 
-    @OnClick({R.id.btn_play, R.id.btn_learn, R.id.btn_skor, R.id.btn_about})
+    @OnClick({R.id.btn_play, R.id.btn_tentang, R.id.btn_panduan, R.id.btn_about})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_play:
                 startActivity(new Intent(MainActivity.this, TesActivity.class));
                 break;
-            case R.id.btn_learn:
+            case R.id.btn_tentang:
+                startActivity(new Intent(MainActivity.this, TentangActivity.class));
                 break;
-            case R.id.btn_skor:
+            case R.id.btn_panduan:
+                startActivity(new Intent(MainActivity.this, TesActivity.class));
                 break;
             case R.id.btn_about:
+                startActivity(new Intent(MainActivity.this, PembuatActivity.class));
                 break;
         }
     }

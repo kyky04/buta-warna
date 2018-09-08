@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import butterknife.BindView;
@@ -51,8 +52,18 @@ public class TesActivity extends AppCompatActivity {
     List<Tes> tesList = new ArrayList<>();
 
 
-    String[] jawaban = new String[]{"2", "3", "5", "6", "7", "8"};
-    int[] gambar = new int[]{R.drawable.ishihara_2, R.drawable.ishihara_3, R.drawable.ishihara_5, R.drawable.ishihara_6, R.drawable.ishihara_7, R.drawable.ishihara_8};
+    String[] jawaban = new String[]{"2", "3", "5", "6", "7", "8", "12", "15", "16", "57", "73"};
+    int[] gambar = new int[]{R.drawable.ishihara_2,
+            R.drawable.ishihara_3,
+            R.drawable.ishihara_5,
+            R.drawable.ishihara_6,
+            R.drawable.ishihara_7,
+            R.drawable.ishihara_8,
+            R.drawable.ishihara_12,
+            R.drawable.ishihara_15,
+            R.drawable.ishihara_57,
+            R.drawable.ishihara_73,
+    };
 
     boolean next = false;
     int pos = 0;
@@ -166,6 +177,9 @@ public class TesActivity extends AppCompatActivity {
         tesList.add(new Tes(jawaban[3], gambar[3]));
         tesList.add(new Tes(jawaban[4], gambar[4]));
         tesList.add(new Tes(jawaban[5], gambar[5]));
+
+
+        Collections.shuffle(tesList);
     }
 
     @Override

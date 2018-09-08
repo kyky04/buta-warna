@@ -74,7 +74,7 @@
 
 
             <LinearLayout
-                android:id="@+id/btn_learn"
+                android:id="@+id/btn_tentang"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="@dimen/spacing_medium"
@@ -106,7 +106,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:id="@+id/btn_skor"
+                android:id="@+id/btn_panduan"
                 android:layout_width="0dp"
                 android:layout_height="150dp"
                 android:layout_margin="@dimen/spacing_medium"

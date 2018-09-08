@@ -19,6 +19,8 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".activities.TesActivity"></activity>
         <activity android:name=".activities.HasilActivity"></activity>
+        <activity android:name=".activities.PembuatActivity"></activity>
+        <activity android:name=".activities.TentangActivity"></activity>
     </application>
 
 </manifest>

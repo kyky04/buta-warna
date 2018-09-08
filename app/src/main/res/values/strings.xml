@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">BUTA WARNA</string>
+    <string name="penyebab">Proses melihat warna melintasi spektrum cahaya diawali dengan kemampuan alamiah mata dalam membedakan warna-warna dasar, seperti warna merah, biru, dan hijau. Namun, mata seorang penderita buta warna tidak dapat melihat atau membedakan warna sebagaimana mata normal. Hal ini terjadi karena ada gangguan pigmen pada reseptor penglihatan warna (sel kerucut di mata). Ketika salah satu pigmen hilang, maka mata akan memiliki masalah dalam melihat warna tertentu. Dalam banyak kasus, buta warna disebabkan oleh faktor genetik orang tua, namun bisa saja terjadi akibat efek samping dari sebuah pengobatan atau gangguan kesehatan yang telah ada sebelumnya.
+
+</string>
+    <string name="tipe">Sebagian besar penderita buta warna akan sulit membedakan gradasi warna merah, kuning, dan hijau seperti warna oranye dan cokelat. Tipe ini disebut dengan buta warna merah-hijau. Tipe ini juga menjadikan penderita sulit membedakan antara warna merah dengan warna hitam dan berbagai gradasi warna ungu. Pria memiliki kecenderungan mengalami buta warna tipe ini lebih besar dibandingkan dengan wanita. Tipe buta warna yang paling jarang terjadi adalah buta warna tipe biru-kuning di mana penderita tidak bisa membedakan warna biru, hijau, dan kuning. Seorang penderita buta warna dari berbagai jenis kondisi di atas dapat melihat warna-warna tersebut lebih kusam dibandingkan orang-orang yang memiliki penglihatan normal.</string>
+    <string name="pengertian">BUTA WARNA adalah kelemahan atau ketidakmampuan seseorang untuk melihat dan membedakan warna. Buta warna terjadi karena adanya kegagalan dalam pembentukan "retina cornes" yakni bagian mata yang dapat mengenali warna dan mengirimkannya ke saraf optik</string>
+    <string name="gejala">Penderita buta warna mungkin hanya bisa melihat beberapa gradasi warna, sementara sebagian besar orang yang normal dapat melihat ratusan warna. Gejala lainnya, sebagian penderita buta warna tidak dapat membedakan antara warna merah dan hijau, namun bisa melihat warna biru dan kuning dengan mudah. Sebagian orang bahkan tidak menyadari bahwa mereka mengalami buta warna sebelum menjalani tes penglihatan warna.</string>
 
     <string-array name="array_gender">
         <item>Laki-Laki</item>
