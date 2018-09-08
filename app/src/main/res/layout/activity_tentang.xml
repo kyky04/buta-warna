@@ -16,9 +16,10 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/transparent">
+            android:background="@color/colorPrimary">
 
             <TextView
+                android:textColor="@color/white"
                 android:id="@+id/tv_toolbar"
                 fontPath="fonts/ubuntu_regular.ttf"
                 android:layout_width="match_parent"

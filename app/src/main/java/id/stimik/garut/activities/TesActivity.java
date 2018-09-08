@@ -61,6 +61,7 @@ public class TesActivity extends AppCompatActivity {
             R.drawable.ishihara_8,
             R.drawable.ishihara_12,
             R.drawable.ishihara_15,
+            R.drawable.ishihara_16,
             R.drawable.ishihara_57,
             R.drawable.ishihara_73,
     };
@@ -158,12 +159,15 @@ public class TesActivity extends AppCompatActivity {
         layJawaban.setVisibility(View.VISIBLE);
         tvJawabanBenar.setText(String.valueOf(jawaban[pos]));
 
+        Log.d(TAG, "jawab: "+etJawaban.getText().toString() + " " +tesList.get(pos).getJawaban());
         if (etJawaban.getText().toString().equals(tesList.get(pos).getJawaban())) {
             tesList.get(pos).setBetul(true);
             tvJawaban.setText("BETUL");
+            Log.d(TAG, "jawab: Betul");
         } else {
             tesList.get(pos).setBetul(false);
             tvJawaban.setText("SALAH");
+            Log.d(TAG, "jawab: Salah");
         }
         pos++;
 
@@ -177,9 +181,14 @@ public class TesActivity extends AppCompatActivity {
         tesList.add(new Tes(jawaban[3], gambar[3]));
         tesList.add(new Tes(jawaban[4], gambar[4]));
         tesList.add(new Tes(jawaban[5], gambar[5]));
+        tesList.add(new Tes(jawaban[6], gambar[6]));
+        tesList.add(new Tes(jawaban[7], gambar[7]));
+        tesList.add(new Tes(jawaban[8], gambar[8]));
+        tesList.add(new Tes(jawaban[9], gambar[9]));
+        tesList.add(new Tes(jawaban[10], gambar[10]));
 
 
-        Collections.shuffle(tesList);
+//        Collections.shufflList);
     }
 
     @Override

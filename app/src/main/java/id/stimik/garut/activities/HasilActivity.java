@@ -49,10 +49,10 @@ public class HasilActivity extends AppCompatActivity {
         jawabanBenar = getIntent().getIntExtra("benar", 0);
         jumlahTest = getIntent().getIntExtra("jumlah", 0);
 
-        if (jawabanBenar > 5) {
+        if (jawabanBenar > 8) {
             Glide.with(this).load(R.drawable.happy).into(imgTes);
             tvHasil.setText("NORMAL");
-        } else if (jawabanBenar > 1 && jawabanBenar < 5) {
+        } else if (jawabanBenar > 1 && jawabanBenar < 8) {
             Glide.with(this).load(R.drawable.smiling).into(imgTes);
             tvHasil.setText("BUTA WARNA PARSIAL");
         } else {

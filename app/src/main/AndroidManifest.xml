@@ -21,6 +21,7 @@
         <activity android:name=".activities.HasilActivity"></activity>
         <activity android:name=".activities.PembuatActivity"></activity>
         <activity android:name=".activities.TentangActivity"></activity>
+        <activity android:name=".activities.PanduanActivity"></activity>
     </application>
 
 </manifest>
