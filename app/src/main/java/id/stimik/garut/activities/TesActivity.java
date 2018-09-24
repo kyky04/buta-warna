@@ -52,7 +52,7 @@ public class TesActivity extends AppCompatActivity {
     List<Tes> tesList = new ArrayList<>();
 
 
-    String[] jawaban = new String[]{"2", "3", "5", "6", "7", "8", "12", "15", "16", "57", "73"};
+    String[] jawaban = new String[]{"2", "3", "5", "6", "7", "8", "12", "15", "16", "57", "73","74","96","97","45"};
     int[] gambar = new int[]{R.drawable.ishihara_2,
             R.drawable.ishihara_3,
             R.drawable.ishihara_5,
@@ -64,6 +64,10 @@ public class TesActivity extends AppCompatActivity {
             R.drawable.ishihara_16,
             R.drawable.ishihara_57,
             R.drawable.ishihara_73,
+            R.drawable.ishihara_74,
+            R.drawable.ishihara_96,
+            R.drawable.ishihara_97,
+            R.drawable.ishihara_45,
     };
 
     boolean next = false;
@@ -186,6 +190,10 @@ public class TesActivity extends AppCompatActivity {
         tesList.add(new Tes(jawaban[8], gambar[8]));
         tesList.add(new Tes(jawaban[9], gambar[9]));
         tesList.add(new Tes(jawaban[10], gambar[10]));
+        tesList.add(new Tes(jawaban[11], gambar[11]));
+        tesList.add(new Tes(jawaban[12], gambar[12]));
+        tesList.add(new Tes(jawaban[13], gambar[13]));
+        tesList.add(new Tes(jawaban[14], gambar[14]));
 
 
 //        Collections.shufflList);
